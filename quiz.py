@@ -4,7 +4,7 @@ import streamlit as st
   
 st.write('Welcome to the QUIZ Zone....\n')
 
-st.write('Q1. WHat is the first alphabet of English? \na.B    b.Y\nc.A    d.E\n')
+st.write('Q1. WHat is the first alphabet of English?  \na.B    b.Y  \nc.A    d.E\n')
 ans1 = st.text_input("enter your choice1....")
 st.write('Q2. Who is theNational Animal of INdia? \na.Bear    b.Giraffe  \nc.Lion    d.Tiger\n')
 ans2 = st.text_input("enter your choice2....")
