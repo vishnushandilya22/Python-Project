@@ -71,7 +71,7 @@ st.write(total)
 
 if total <= 50 and total > 45:
   st.write('Congratulations... you have got 1st position')
-  st.balloons
+  st.balloons()
 elif total <= 45 and total > 40:
   st.write('Congratulations... you have got 2nd position')
 elif total <=40  and total > 30 :
