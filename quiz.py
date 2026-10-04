@@ -18,9 +18,9 @@ st.write("how many oceans are in the world?   \na.7     \nb.3      \nc.4      \n
 ans6 = st.text_input("enter your choice6....")
 st.write("which is the biggest ocean in the world  \na.antarctic     \nb.pacific     \nc.arctic     \nd.atlantic\n")
 ans7 = st.text_input("enter your choice7....")
-st.write("which is the biggest country in the world  \na.USA     \n\b.Australia     \nc.russia     \nd.canada\n")
+st.write("which is the biggest country in the world  \na.USA     \nb.Australia     \nc.russia     \nd.canada\n")
 ans8 = st.text_input("enter your choice8....")
-st.write("Which is the largest continent in the world  \na.Europe     \n\b.Audtralia     \nc.Asia     \nd.Africa\n")
+st.write("Which is the largest continent in the world  \na.Europe     \nb.Audtralia     \nc.Asia     \nd.Africa\n")
 ans9 = st.text_input("enter your choice9....")
 st.write("which is ths largest state India by area  \na.Maharashtra      \nb.Uttar pradesh     \nc.Rajasthan     \nd.Madhya Pradesh")
 ans10 = st.text_input("enter your choice10....")
@@ -71,7 +71,7 @@ st.write(total)
 
 if total <= 50 and total > 45:
   st.write('Congratulations... you have got 1st position')
-  st.ballons
+  st.balloons
 elif total <= 45 and total > 40:
   st.write('Congratulations... you have got 2nd position')
 elif total <=40  and total > 30 :
